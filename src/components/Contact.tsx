@@ -11,12 +11,12 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://linkedin.com/in/sanidhya-ai-ml"
+                href="https://www.linkedin.com/in/sanidhya-aiml"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                LinkedIn — sanidhya-ai-ml
+                LinkedIn — sanidhya-aiml
               </a>
             </p>
             <p>
@@ -43,7 +43,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://linkedin.com/in/sanidhya-ai-ml"
+              href="https://www.linkedin.com/in/sanidhya-aiml"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
