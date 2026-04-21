@@ -49,6 +49,44 @@ const projects = [
     image: "/images/placeholder.webp",
     link: "https://github.com/sanidhya-ai-ml/content-ops-mcp",
   },
+
+  // ── Production / Client Work (from résumé) ────────────────────────────
+  {
+    title: "GenAI Clinical Trial Verification",
+    category: "LangGraph · Multi-Agent · Life Sciences",
+    description:
+      "Led end-to-end design of a LangGraph multi-agent pipeline automating clinical trial source data verification — mapping PDFs to CDISC ODM XML EDC records via RAG + OCR + NER, with a mismatch detection engine for full evidence traceability.",
+    tools: "LangGraph · LangChain · RAG · MCP Servers · OCR · NER · FastAPI · Celery · PostgreSQL",
+    image: "/images/placeholder.webp",
+    link: "",
+  },
+  {
+    title: "MLOps Log Intelligence — Dish/Sling TV",
+    category: "MLOps · Anomaly Detection",
+    description:
+      "Architected an end-to-end MLOps pipeline ingesting logs from 50+ servers. Built an Isolation Forest model with time-series feature engineering to predict machine failures before they occur. All experiments tracked in MLflow with automated alerting dashboards.",
+    tools: "Python · Dataiku · AWS S3 · Apache Beam · Scikit-learn · GCP · Docker · MLflow",
+    image: "/images/placeholder.webp",
+    link: "",
+  },
+  {
+    title: "Sentry-B: Edge Surveillance System",
+    category: "Computer Vision · Edge AI",
+    description:
+      "Full pipeline design and deployment on Jetson Nano — YOLOv3 person detection, DeepSORT multi-object tracking, MTCNN face extraction, and face recognition for employee vs. guest classification from live CCTV. TensorRT-optimised for real-time edge inference.",
+    tools: "YOLOv3 · DeepSORT · MTCNN · PyTorch · TensorRT · Jetson Nano · OpenCV",
+    image: "/images/placeholder.webp",
+    link: "",
+  },
+  {
+    title: "AI Resume Optimization Engine",
+    category: "RAG · NLP · ATS Scoring",
+    description:
+      "RAG-based resume evaluation system using LangChain + ChromaDB — job descriptions embedded as vectors, resumes semantically compared to surface genuine skill gaps. Custom ATS scoring engine for keyword alignment, skill relevance, and experience context.",
+    tools: "LangChain · ChromaDB · FastAPI · Pydantic · OpenAI API · Embeddings",
+    image: "/images/placeholder.webp",
+    link: "",
+  },
 ];
 
 const Work = () => {
