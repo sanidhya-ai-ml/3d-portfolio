@@ -46,13 +46,13 @@ const Navbar = () => {
           SS
         </a>
         <a
-          href="https://linkedin.com/in/sanidhya-ai-ml"
+          href="https://linkedin.com/in/sanidhya-aiml"
           className="navbar-connect"
           data-cursor="disable"
           target="_blank"
           rel="noreferrer"
         >
-          linkedin.com/in/sanidhya-ai-ml
+          linkedin.com/in/sanidhya-aiml
         </a>
         <ul>
           <li>
