@@ -11,18 +11,13 @@ import {
   RapierRigidBody,
 } from "@react-three/rapier";
 
-const textureLoader = new THREE.TextureLoader();
-const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+const ballMaterials = [
+  new THREE.MeshPhysicalMaterial({ color: "#7c3aed", metalness: 0.3, roughness: 0.4, clearcoat: 0.8 }),
+  new THREE.MeshPhysicalMaterial({ color: "#2563eb", metalness: 0.3, roughness: 0.4, clearcoat: 0.8 }),
+  new THREE.MeshPhysicalMaterial({ color: "#0891b2", metalness: 0.3, roughness: 0.4, clearcoat: 0.8 }),
+  new THREE.MeshPhysicalMaterial({ color: "#059669", metalness: 0.3, roughness: 0.4, clearcoat: 0.8 }),
+  new THREE.MeshPhysicalMaterial({ color: "#9333ea", metalness: 0.3, roughness: 0.4, clearcoat: 0.8 }),
 ];
-const textures = imageUrls.map((url) => textureLoader.load(url));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
@@ -152,18 +147,7 @@ const TechStack = () => {
     };
   }, []);
   const materials = useMemo(() => {
-    return textures.map(
-      (texture) =>
-        new THREE.MeshPhysicalMaterial({
-          map: texture,
-          emissive: "#ffffff",
-          emissiveMap: texture,
-          emissiveIntensity: 0.3,
-          metalness: 0.5,
-          roughness: 1,
-          clearcoat: 0.1,
-        })
-    );
+    return ballMaterials;
   }, []);
 
   const skillGroups = [
