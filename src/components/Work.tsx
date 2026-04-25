@@ -8,18 +8,18 @@ const projects = [
     title: "Job Tracker Agent",
     category: "Automation · AI",
     description:
-      "AI-powered job application tracker — monitors Gmail with n8n, extracts company/role/status via GPT-4o structured output, syncs to Notion, and sends a daily Slack digest.",
-    tools: "n8n · OpenAI GPT-4o · FastAPI · Notion API · PostgreSQL · Celery",
-    image: "/images/placeholder.webp",
+      "AI-powered job application tracker — monitors Gmail with n8n, extracts company/role/status via Gemini 2.5 Flash, persists to PostgreSQL, optionally syncs to Notion, and sends a daily Slack digest.",
+    tools: "n8n · Gemini 2.5 Flash · FastAPI · PostgreSQL · Notion API · Docker",
+    image: "/images/job-tracker-1.png",
     link: "https://github.com/sanidhya-ai-ml/job-tracker-agent",
   },
   {
     title: "GitHub Portfolio MCP",
     category: "MCP Server · AI Tools",
     description:
-      "Custom Model Context Protocol server exposing GitHub data as callable AI tools — repo search, README summarisation, issue listing, and commit history for Claude Desktop or any MCP-compatible agent.",
-    tools: "MCP SDK · FastAPI SSE · GitHub API · OpenAI · Docker",
-    image: "/images/placeholder.webp",
+      "Custom Model Context Protocol server exposing GitHub data as 8 callable AI tools — repo search, README summarisation via Gemini, issue listing, and commit history for Claude Desktop or any MCP-compatible agent.",
+    tools: "MCP SDK · FastAPI SSE · GitHub REST API · Gemini 2.5 Flash · Docker",
+    image: "/images/github-mcp-1.png",
     link: "https://github.com/sanidhya-ai-ml/github-portfolio-mcp",
   },
   {
