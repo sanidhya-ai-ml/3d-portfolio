@@ -37,7 +37,7 @@ const projects = [
     description:
       "LangGraph multi-agent pipeline — Planner, Researcher, Summariser, Fact-Checker, and Editor agents run autonomously, then pause for human-in-the-loop review before finalising. Redis-backed task persistence, Tavily web search, iterative revision flow.",
     tools: "LangGraph · LangChain · FastAPI · Redis · Tavily · Gemini 2.5 Flash",
-    image: "/images/placeholder.webp",
+    image: "/images/research-agent-1.png",
     link: "https://github.com/sanidhya-ai-ml/research-agent-crew",
   },
   {
