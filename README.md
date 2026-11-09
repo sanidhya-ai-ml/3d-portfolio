@@ -2,7 +2,7 @@
 
 This repository contains the source code for a personal 3D portfolio built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions designed for a modern portfolio experience.
 
-Live site: [https://akashrmalhotra.netlify.app/](https://akashrmalhotra.netlify.app/)
+Live site: [https://3d-portfolio-nu-eight.vercel.app](https://3d-portfolio-nu-eight.vercel.app)
 
 ![Portfolio Preview](public/images/preview1.png)
 
@@ -170,6 +170,10 @@ You can adapt this portfolio to your own profile by updating the following areas
    ```
 
 3. Deploy the generated `dist/` folder to your hosting provider (for example Vercel, Netlify, or Cloudflare Pages).
+
+## Credits
+
+This portfolio is built on an open-source, MIT-licensed 3D portfolio template. The copyright notice of that original work (Rajesh Chityal) is kept in [LICENSE](LICENSE), as the license requires. The content, project sections and customizations in this repository are by Sanidhya Singh.
 
 ## License
 
